@@ -19,9 +19,7 @@ http.createServer(function (request, response) {
         }
         selector = values.selector;
         number = values.number;
-        console.log(selector, number)
         randomStuff = loremGenerator[selector](number);
-        console.log('kkkkkk: ', randomStuff)
         renderer.view("home", randomStuff, response);
         response.end();
     })
@@ -29,7 +27,5 @@ http.createServer(function (request, response) {
     renderer.view("home", [], response);
     response.end();
   }
-  
-
 }).listen(1337, "127.0.0.1");
 console.log("Running!");
