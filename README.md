@@ -4,11 +4,13 @@ This is a webservice that generates [Lorem Ipsum](https://en.wikipedia.org/wiki/
 
 ## Getting Started
 
+Ensure you have [Node JS](https://nodejs.org/en/) is installed on your machine.
+
 Clone the repo and run: 
     `npm install`
     
 Then run 
-    `npm index.js`
+    `node index.js`
     
 And in your browser go to <http://localhost:3000/>
 
