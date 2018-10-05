@@ -4,7 +4,7 @@ This is a webservice that generates [Lorem Ipsum](https://en.wikipedia.org/wiki/
 
 ## Getting Started
 
-Ensure you have [Node JS](https://nodejs.org/en/) is installed on your machine.
+Ensure you have [Node JS](https://nodejs.org/en/) installed on your local machine.
 
 Clone the repo and run: 
     `npm install`
@@ -15,8 +15,7 @@ Then run
 And in your browser go to <http://localhost:3000/>
 
 ## Running the tests
-
-Tests are currently no tests
+There are currently no tests.
 
 ## Authors
 
